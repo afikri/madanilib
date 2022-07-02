@@ -46,61 +46,12 @@ const Login = () => {
 
   return (
     <div className='grid-container'>
-
-      <div className="left">
-        <img src={palm} width="100%" height="100%" alt="palm-oil" />
+      <div className='left'>
+        <h1>This is left</h1>
       </div>
-      <div className="right">
 
-        {
-          validation.message && (
-            <div>
-              {validation.message}
-            </div>
-          )
-        }
-
-        <form onSubmit={handleLogin}>
-          <div>
-            <label>ALAMAT EMAIL</label>
-            <input
-              className="input-box"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Alamat Email" />
-          </div>
-          {
-            validation.email && (
-              <div>
-                {validation.email[0]}
-              </div>
-            )
-          }
-          <div>
-            <label>PASSWORD</label>
-            <input
-              className="input-box"
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder="Password" />
-          </div>
-          {
-            validation.password && (
-              <div>
-                {validation.password[0]}
-              </div>
-            )
-          }
-          <div>
-            <button type="submit">LOGIN</button>
-          </div>
-
-        </form>
-
-        <Link to="/register">Register</Link>
-
+      <div className='right'>
+        <h1>This is right</h1>
       </div>
     </div>
   )
