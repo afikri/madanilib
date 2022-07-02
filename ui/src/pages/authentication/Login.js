@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios';
+import './Login.css';
+import palm from '../../images/palm-oil.jpg';
+
 const Login = () => {
 
   //define state
@@ -42,46 +45,63 @@ const Login = () => {
   }
 
   return (
-    <div>
-      {
-        validation.message && (
+    <div className='grid-container'>
+
+      <div className="left">
+        <img src={palm} width="100%" height="100%" alt="palm-oil" />
+      </div>
+      <div className="right">
+
+        {
+          validation.message && (
+            <div>
+              {validation.message}
+            </div>
+          )
+        }
+
+        <form onSubmit={handleLogin}>
           <div>
-            {validation.message}
+            <label>ALAMAT EMAIL</label>
+            <input
+              className="input-box"
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Alamat Email" />
           </div>
-        )
-      }
+          {
+            validation.email && (
+              <div>
+                {validation.email[0]}
+              </div>
+            )
+          }
+          <div>
+            <label>PASSWORD</label>
+            <input
+              className="input-box"
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Password" />
+          </div>
+          {
+            validation.password && (
+              <div>
+                {validation.password[0]}
+              </div>
+            )
+          }
+          <div>
+            <button type="submit">LOGIN</button>
+          </div>
 
-      <form onSubmit={handleLogin} style={{ marginLeft: "20px", marginTop:"30px" }}>
-        <div>
-          <label>ALAMAT EMAIL</label>
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Alamat Email" />
-        </div>
-        {
-          validation.email && (
-            <div>
-              {validation.email[0]}
-            </div>
-          )
-        }
-        <div>
-          <label>PASSWORD</label>
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
-        </div>
-        {
-          validation.password && (
-            <div>
-              {validation.password[0]}
-            </div>
-          )
-        }
-        <div>
-          <button type="submit">LOGIN</button>
-        </div>
+        </form>
 
-      </form>
+        <Link to="/register">Register</Link>
 
-      {/* <Link to="/dashboard">Login</Link> or <br/> */}
-      <Link to="/register">Register</Link>
+      </div>
     </div>
   )
 }
