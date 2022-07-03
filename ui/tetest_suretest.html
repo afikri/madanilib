@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* -------------------- 
+Styles: Global
+-------------------- */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 20px;
+            line-height: 1.62;
+        }
+
+        /* -------------------- 
+Grid - Social Icons
+-------------------- */
+        /* define grid for social icons */
+        div.social {
+            display: grid;
+            grid-template-columns: repeat(4, 48px);
+            grid-auto-rows: 64px;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        /* -------------------- 
+Grid - Social Icons
+-------------------- */
+        /* define grid for social icons */
+        div.social {
+            display: grid;
+            grid-template-columns: repeat(4, 48px);
+            grid-auto-rows: 64px;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        /* align each icon within it's div */
+        div.social div {
+            background: #ffffff;
+        }
+
+        #site-top-bar {
+            margin: 40px;
+            background: #e1e1e1;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.6em;
+        }
+
+        h3 {
+            font-size: 1.3em;
+        }
+
+        ul.nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul.nav li {
+            display: inline;
+        }
+
+        /* -------------------- 
+grid-template-area ORIGINAL
+-------------------- */
+        /* define grid areas */
+        #site-top-bar .nav {
+            grid-area: top-nav;
+        }
+
+        #site-top-bar .social {
+            grid-area: top-social;
+        }
+
+        #site-top-bar .search {
+            grid-area: top-search;
+        }
+
+
+        #site-top-bar {
+            display: grid;
+            grid-template-areas: 'top-social top-search top-nav';
+        }
+
+        /*grid for tablet-portrait*/
+        @media all and (max-width: 992px) {
+            #site-top-bar .search {
+                display: none;
+            }
+        }
+
+        /*grid for phone*/
+        @media all and (max-width: 767px) {
+            #site-top-bar .social {
+                display: none;
+            }
+
+            #site-top-bar .search {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="site-top-bar">
+        <ul class="nav nav-hor">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+        <div class="social">
+            <div>T</div>
+            <div>F</div>
+            <div>P</div>
+            <div>I</div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </div>
+    </div>
+</body>
+
+</html>

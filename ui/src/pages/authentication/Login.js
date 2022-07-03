@@ -46,13 +46,8 @@ const Login = () => {
 
   return (
     <div className='grid-container'>
-      <div className='left'>
-        <h1>This is left</h1>
-      </div>
-
-      <div className='right'>
-        <h1>This is right</h1>
-      </div>
+      <div className='grid-item left' style={{ border: "2px solid black" }}><h1>This is left</h1></div>
+      <div className='grid-item right' style={{ border: "2px solid black" }}><h1>This is right</h1></div>
     </div>
   )
 }
