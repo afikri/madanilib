@@ -1,11 +1,10 @@
 import axios from 'axios';
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import palm from '../../images/palm-oil.jpg'
-import './Login.css';
+import { useNavigate } from 'react-router-dom';
+
+import madani from '../../images/madani.png'
 
 const Login = () => {
-
   //define state
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -45,99 +44,57 @@ const Login = () => {
   }
 
   return (
-    <div className="limiter">
-      <div className="container-login100">
-        <div className="wrap-login100">
-          {
-            validation.message && (
-              <div>
-                {validation.message}
-              </div>
-            )
-          }
-          <form className="login100-form validate-form" onSubmit={handleLogin}>
-            <span className="login100-form-title p-b-43">
-              MadaniLib
-            </span>
-
-            <div className="wrap-input100 validate-input">
-              <input className="input100"
-                type="text"
-                value={email}
-                onChange={(e) => { setEmail(e.target.value) }}
-              />
-              <span className="focus-input100"></span>
-              <span className="label-input100">Email</span>
-            </div>
-            {
-              validation.email && (
-                <div>
-                  {validation.email[0]}
+    <div className="container-scroller">
+      <div className="container-fluid page-body-wrapper full-page-wrapper">
+        <div className="content-wrapper d-flex align-items-center auth px-0">
+          <div className="row w-100 mx-0">
+            <div className="col-lg-4 mx-auto">
+              <div className="auth-form-light text-left py-5 px-4 px-sm-5">
+                <div className="brand-logo">
+                  <img src={madani} alt="logo" />
                 </div>
-              )
-            }
-
-            <div className="wrap-input100 validate-input">
-              <input className="input100"
-                type="password"
-                value={password}
-                onChange={(e) => { setPassword(e.target.value) }}
-              />
-              <span className="focus-input100"></span>
-              <span className="label-input100">Password</span>
-            </div>
-            {
-              validation.password && (
-                <div>
-                  {validation.password[0]}
-                </div>
-              )
-            }
-
-            <div className="flex-sb-m w-full p-t-3 p-b-32">
-              <div className="contact100-form-checkbox">
-                <input className="input-checkbox100" id="ckb1" type="checkbox" name="remember-me" />
-                {/* <label htmlFor="label-checkbox100" for="ckb3">
-                Ingat saya
-                </label> */}
+                <h4>Silahkan Login untuk Masuk</h4>
+                {/* <h6 className="fw-light">Login.</h6> */}
+                <form className="pt-3" onSubmit={handleLogin}>
+                  <div className="form-group">
+                    <input type="email"
+                      value={email}
+                      onChange={(e) => { setEmail(e.target.value) }}
+                      className="form-control form-control-lg"
+                      id="exampleInputEmail1"
+                      placeholder="Username" />
+                  </div>
+                  <div className="form-group">
+                    <input type="password"
+                      value={password}
+                      onChange={(e) => { setPassword(e.target.value) }}
+                      class="form-control form-control-lg"
+                      id="exampleInputPassword1"
+                      placeholder="Password" />
+                  </div>
+                  <div className="mt-3">
+                    <button>Sign Up</button>
+                  </div>
+                  <div className="my-2 d-flex justify-content-between align-items-center">
+                    <div className="form-check">
+                      <label className="form-check-label text-muted">
+                        <input type="checkbox" className="form-check-input" />
+                        Saya tetap sign in 
+                      </label>
+                    </div>
+                    <a href="#" className="auth-link text-black">Lupa password?</a>
+                  </div>
+                  <div className="mb-2">
+                    <button type="button" className="btn btn-block btn-facebook auth-form-btn">
+                      <i className="ti-facebook me-2"></i>Connect using facebook
+                    </button>
+                  </div>
+                  <div className="text-center mt-4 fw-light">
+                    Don't have an account? <a href="register.html" className="text-primary">Create</a>
+                  </div>
+                </form>
               </div>
-
-              <div>
-                <Link to="#" className="txt1" style={{ textDecoration: "none" }}>
-                  Lupa Password?
-                </Link>
-              </div>
             </div>
-
-
-            <div className="container-login100-form-btn">
-              <button className="login100-form-btn" >
-                Login
-              </button>
-            </div>
-
-            <div className="text-center p-t-46 p-b-20">
-              <span className="txt2">
-                atau Sign Up dengan
-              </span>
-            </div>
-
-            <div className="login100-form-social flex-c-m">
-              <Link to="#" className="login100-form-social-item flex-c-m bg3 m-r-5" style={{ textDecoration: "none" }}>
-                <i className="fa fa-google" aria-hidden="true"></i>
-              </Link>
-              <Link to="#" className="login100-form-social-item flex-c-m bg1 m-r-5" style={{ textDecoration: "none" }}>
-                <i className="fa fa-facebook-f" aria-hidden="true"></i>
-              </Link>
-
-              <Link to="#" className="login100-form-social-item flex-c-m bg2 m-r-5" style={{ textDecoration: "none" }}>
-                <i className="fa fa-twitter" aria-hidden="true"></i>
-              </Link>
-            </div>
-          </form>
-
-          <div className="login100-more"  >
-            <img src={palm} width="100%" height="100%" alt="palm-oil" />
           </div>
         </div>
       </div>
