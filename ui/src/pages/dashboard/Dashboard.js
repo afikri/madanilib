@@ -29,34 +29,9 @@ const Dashboard = () => {
           </ul>
 
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item dropdown d-none d-lg-block">
-              <a className="nav-link dropdown-bordered dropdown-toggle dropdown-toggle-split" id="messageDropdown" href="#"
-                data-bs-toggle="dropdown" aria-expanded="false"> Pilih Kategori </a>
-              <div className="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0"
-                aria-labelledby="messageDropdown">
-                <a className="dropdown-item py-3">
-                  <p className="mb-0 font-weight-medium float-left">Select category</p>
-                </a>
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item preview-item">
-                  <div className="preview-item-content flex-grow py-2">
-                    <p className="preview-subject ellipsis font-weight-medium text-dark">This is a category </p>
-                    <p className="fw-light small-text mb-0">This is up to them to do whatever they want to do</p>
-                  </div>
-                </a>
-              </div>
-            </li>
-
-            <li className="nav-item">
-              <form className="search-form" action="#">
-                <i className="icon-search"></i>
-                <input type="search" className="form-control" placeholder="Search Here" title="Search here" />
-              </form>
-            </li>
-
             <li className="nav-item dropdown d-none d-lg-block user-dropdown">
               <a className="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                <img style={{height:"50px", width:"40px"}}
+                <img style={{ height: "50px", width: "40px" }}
                   src={user}
                   alt="Profile image" /> </a>
               <div className="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
@@ -67,6 +42,9 @@ const Dashboard = () => {
                 </div>
                 <a className="dropdown-item"><i className="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
               </div>
+            </li>
+            <li className="nav-item dropdown d-none d-lg-block">
+              Log out
             </li>
           </ul>
           <button className="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
@@ -86,114 +64,62 @@ const Dashboard = () => {
                 aria-controls="form-elements">
                 <i className="menu-icon mdi mdi-card-text-outline"></i>
                 <span className="menu-title">Data Tabular</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="form-elements">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"><a className="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>
-                </ul>
-              </div>
+
             </li>
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
                 <i className="menu-icon mdi mdi-chart-line"></i>
                 <span className="menu-title">Analisis Spasial</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="charts">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/charts/chartjs.html">ChartJs</a></li>
-                </ul>
-              </div>
+
             </li>
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
                 <i className="menu-icon mdi mdi-table"></i>
                 <span className="menu-title">Update dan Analisis</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="tables">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/tables/basic-table.html">Basic table</a></li>
-                </ul>
-              </div>
             </li>
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i className="menu-icon mdi mdi-layers-outline"></i>
                 <span className="menu-title">Presentasi</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="icons">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-                </ul>
-              </div>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i className="menu-icon mdi mdi-layers-outline"></i>
                 <span className="menu-title">Literature Eksternal</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="icons">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-                </ul>
-              </div>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i className="menu-icon mdi mdi-layers-outline"></i>
                 <span className="menu-title">Kegiatan Internal</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="icons">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-                </ul>
-              </div>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i className="menu-icon mdi mdi-layers-outline"></i>
                 <span className="menu-title">Kegiatan Eksternal</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="icons">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-                </ul>
-              </div>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i className="menu-icon mdi mdi-layers-outline"></i>
                 <span className="menu-title">Admin Program</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="icons">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-                </ul>
-              </div>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i className="menu-icon mdi mdi-layers-outline"></i>
                 <span className="menu-title">Form Upload Data</span>
-                <i className="menu-arrow"></i>
               </a>
-              <div className="collapse" id="icons">
-                <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <a className="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-                </ul>
-              </div>
             </li>
           </ul>
         </nav>

@@ -54,7 +54,6 @@ const Login = () => {
                   <img src={madani} alt="logo" />
                 </div>
                 <h4>Silahkan Login untuk Masuk</h4>
-                {/* <h6 className="fw-light">Login.</h6> */}
                 <form className="pt-3" onSubmit={handleLogin}>
                   <div className="form-group">
                     <input type="email"
@@ -73,24 +72,19 @@ const Login = () => {
                       placeholder="Password" />
                   </div>
                   <div className="mt-3">
-                    <button>Sign Up</button>
-                  </div>
-                  <div className="my-2 d-flex justify-content-between align-items-center">
-                    <div className="form-check">
-                      <label className="form-check-label text-muted">
-                        <input type="checkbox" className="form-check-input" />
-                        Saya tetap sign in 
-                      </label>
-                    </div>
-                    <a href="#" className="auth-link text-black">Lupa password?</a>
-                  </div>
-                  <div className="mb-2">
-                    <button type="button" className="btn btn-block btn-facebook auth-form-btn">
-                      <i className="ti-facebook me-2"></i>Connect using facebook
-                    </button>
-                  </div>
-                  <div className="text-center mt-4 fw-light">
-                    Don't have an account? <a href="register.html" className="text-primary">Create</a>
+                    <button
+                      style={{
+                        backgroundColor: "#172D88",
+                        border: "none",
+                        borderRadius: "5px",
+                        color: "white",
+                        padding: "15px 32px",
+                        textAlign: "center",
+                        textDecoration: "none",
+                        display: "inline-block",
+                        fontSize: "16px"
+                      }}
+                    >SIGN IN</button>
                   </div>
                 </form>
               </div>
