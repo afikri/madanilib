@@ -76,48 +76,48 @@ const Dashboard = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-                <i className="menu-icon mdi mdi-table"></i>
+                <i className="menu-icon mdi mdi-update"></i>
                 <span className="menu-title">Update dan Analisis</span>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-                <i className="menu-icon mdi mdi-layers-outline"></i>
+                <i className="menu-icon mdi mdi-presentation"></i>
                 <span className="menu-title">Presentasi</span>
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-                <i className="menu-icon mdi mdi-layers-outline"></i>
+                <i className="menu-icon mdi mdi-library"></i>
                 <span className="menu-title">Literature Eksternal</span>
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-                <i className="menu-icon mdi mdi-layers-outline"></i>
+                <i className="menu-icon mdi mdi-import"></i>
                 <span className="menu-title">Kegiatan Internal</span>
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-                <i className="menu-icon mdi mdi-layers-outline"></i>
+                <i className="menu-icon mdi mdi-export"></i>
                 <span className="menu-title">Kegiatan Eksternal</span>
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-                <i className="menu-icon mdi mdi-layers-outline"></i>
+                <i className="menu-icon mdi mdi-account"></i>
                 <span className="menu-title">Admin Program</span>
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-                <i className="menu-icon mdi mdi-layers-outline"></i>
+                <i className="menu-icon mdi mdi-cloud-upload"></i>
                 <span className="menu-title">Form Upload Data</span>
               </a>
             </li>
