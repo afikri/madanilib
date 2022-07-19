@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Dashboard.css'
 import data from '../../data.json'
 
 import { Footer, Nav, Sidebar, Utilities } from '../../components/'
@@ -24,12 +25,7 @@ const Dashboard = () => {
                     <ul className="nav nav-tabs" role="tablist">
                       <form className="form-inline" style={{ width: "800px" }}>
                         <div className="input-group mb-2 mr-sm-2">
-                          <input type="text" className="form-control form-control-lg" placeholder="Search..." onChange={onSearch} />
-                          <div className="input-group-prepend">
-                            <div className="input-group-text" style={{ height: "51px" }}>
-                              <i className="icon-arrow-right" style={{ color: "blue" }}></i>
-                            </div>
-                          </div>
+                          <input type="text" className="form-control form-control-lg no-submit" placeholder="Search..." onChange={onSearch} />
                         </div>
                       </form>
                     </ul>
