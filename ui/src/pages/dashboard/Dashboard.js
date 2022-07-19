@@ -1,11 +1,18 @@
-import React from 'react'
-import { Nav, Sidebar } from '../../components/'
+import React, { useState } from 'react'
+import data from '../../data.json'
+
+import { Footer, Nav, Sidebar, Utilities } from '../../components/'
 
 const Dashboard = () => {
+  const [searchTerm, setSearchTerm] = useState("")
+
+  const onSearch = (e) => {
+    setSearchTerm(e.target.value)
+  }
+
   return (
     <div>
       <Nav />
-
       <div className="container-fluid page-body-wrapper">
         <Sidebar />
         <div className="main-panel">
@@ -17,7 +24,7 @@ const Dashboard = () => {
                     <ul className="nav nav-tabs" role="tablist">
                       <form className="form-inline" style={{ width: "800px" }}>
                         <div className="input-group mb-2 mr-sm-2">
-                          <input type="text" className="form-control form-control-lg" placeholder="Search..." />
+                          <input type="text" className="form-control form-control-lg" placeholder="Search..." onChange={onSearch} />
                           <div className="input-group-prepend">
                             <div className="input-group-text" style={{ height: "51px" }}>
                               <i className="icon-arrow-right" style={{ color: "blue" }}></i>
@@ -27,11 +34,7 @@ const Dashboard = () => {
                       </form>
                     </ul>
                     <div>
-                      <div className="btn-wrapper">
-                        <a href="#" className="btn btn-otline-dark align-items-center"><i className="icon-share"></i> Share</a>
-                        <a href="#" className="btn btn-otline-dark"><i className="icon-printer"></i> Print</a>
-                        <a href="#" className="btn btn-primary text-white me-0"><i className="icon-download"></i> Export</a>
-                      </div>
+                      <Utilities />
                     </div>
                   </div>
                   <div className="tab-content tab-content-basic">
@@ -55,38 +58,40 @@ const Dashboard = () => {
                                           <th>Deskripsi Dokumen</th>
                                         </tr>
                                       </thead>
-                                      <tbody>
-                                        <tr>
-                                          <td>1</td>
-                                          <td>
-                                            <div className="d-flex ">
+                                      {data.map((val, key) => {
+                                        return <tbody>
+                                          <tr>
+                                            <td>{val.id}</td>
+                                            <td>
+                                              <div className="d-flex ">
+                                                <div>
+                                                  <h6>{val.file_name}</h6>
+                                                </div>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <h6>{val.file_source}</h6>
+                                            </td>
+                                            <td>
                                               <div>
-                                                <h6>Area Baru Terbakar ABT Kalteng, Sumsel, Kalbar_Madani_2020_Excel</h6>
+                                                <div
+                                                  className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
+                                                  <p className="text-success">{val.year}</p>
+                                                </div>
                                               </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <h6>Madani</h6>
-                                          </td>
-                                          <td>
-                                            <div>
-                                              <div
-                                                className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                <p className="text-success">2020</p>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div className="badge badge-opacity-warning">Excel</div>
-                                          </td>
-                                          <td>
-                                            <h6><a href="#">Database Tabular</a></h6>
-                                          </td>
-                                          <td>
-                                            Luas Area Baru Terbakar ABT Kalteng, Sumsel, Kalbar
-                                          </td>
-                                        </tr>
-                                      </tbody>
+                                            </td>
+                                            <td>
+                                              <div className="badge badge-opacity-warning">{val.type}</div>
+                                            </td>
+                                            <td>
+                                              <h6><a href="#">{val.folder}</a></h6>
+                                            </td>
+                                            <td>
+                                              {val.doc_description}
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      })}
                                     </table>
                                   </div>
                                 </div>
@@ -101,14 +106,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <footer className="footer">
-            <div className="d-sm-flex justify-content-center justify-content-sm-between">
-              <span className="text-muted text-center text-sm-left d-block d-sm-inline-block">Made possible by MadaniLib with
-                &hearts;<a href="#" target="_blank"></a></span>
-              <span className="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2022. All rights
-                reserved.</span>
-            </div>
-          </footer>
+          <Footer />
         </div>
       </div>
     </div>

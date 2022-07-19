@@ -8,6 +8,8 @@
 #### Done
 - Sidebar refactoring
 - Search bar input
+
 #### To do
 - Role based access
 - Retrieve database from mysql
+- Type of file's color, make them different, pdf, ppt, word, excel

@@ -23,7 +23,7 @@ const Nav = () => {
             <div className="navbar-menu-wrapper d-flex align-items-top">
                 <ul className="navbar-nav">
                     <li className="nav-item font-weight-semibold d-none d-lg-block ms-0">
-                        <h1 className="welcome-text">Hello, <span className="text-black fw-bold">Fikri Abdul</span></h1>
+                        <h5 className="welcome-text">Hi, <span className="text-black fw-bold">Fikri Abdul</span></h5>
                     </li>
                 </ul>
 
