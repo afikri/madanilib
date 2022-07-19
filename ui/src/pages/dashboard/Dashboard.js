@@ -77,7 +77,7 @@ const Dashboard = () => {
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
                 <i className="menu-icon mdi mdi-update"></i>
-                <span className="menu-title">Update dan Analisis</span>
+                <span className="menu-title">Publikasi Madani</span>
               </a>
             </li>
             <li className="nav-item">
@@ -108,12 +108,12 @@ const Dashboard = () => {
               </a>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i className="menu-icon mdi mdi-account"></i>
                 <span className="menu-title">Admin Program</span>
               </a>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
@@ -131,13 +131,22 @@ const Dashboard = () => {
                 <div className="home-tab">
                   <div className="d-sm-flex align-items-center justify-content-between border-bottom">
                     <ul className="nav nav-tabs" role="tablist">
-
+                      <form className="form-inline" style={{ width: "800px" }}>
+                        <div className="input-group mb-2 mr-sm-2">
+                          <input type="text" className="form-control form-control-lg" placeholder="Search..." />
+                          <div className="input-group-prepend">
+                            <div className="input-group-text" style={{ height: "51px" }}>
+                              <i className="icon-arrow-right" style={{color:"blue"}}></i>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
                     </ul>
                     <div>
                       <div className="btn-wrapper">
                         <a href="#" className="btn btn-otline-dark align-items-center"><i className="icon-share"></i> Share</a>
                         <a href="#" className="btn btn-otline-dark"><i className="icon-printer"></i> Print</a>
-                        <a href="#" className="btn btn-primary text-white me-0"><i className="i con-download"></i> Export</a>
+                        <a href="#" className="btn btn-primary text-white me-0"><i className="icon-download"></i> Export</a>
                       </div>
                     </div>
                   </div>
