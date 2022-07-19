@@ -12,4 +12,4 @@
 #### To do
 - Role based access
 - Retrieve database from mysql
-- Type of file's color, make them different, pdf, ppt, word, excel
+- Type of file's color, make them different, pdf(red), ppt(orange), word(light blue), excel(light yellow)
