@@ -54,7 +54,13 @@ const Dashboard = () => {
                                           <th>Deskripsi Dokumen</th>
                                         </tr>
                                       </thead>
-                                      {data.map((val, key) => {
+                                      {data.filter((val)=>{
+                                        if (searchTerm === "") {
+                                          return val
+                                        } else if (val.type.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())) {
+                                          return val
+                                        }
+                                      }).map((val, key) => {
                                         return <tbody>
                                           <tr>
                                             <td>{val.id}</td>
