@@ -67,7 +67,7 @@ const Login = () => {
                     <input type="password"
                       value={password}
                       onChange={(e) => { setPassword(e.target.value) }}
-                      class="form-control form-control-lg"
+                      className="form-control form-control-lg"
                       id="exampleInputPassword1"
                       placeholder="Password" />
                   </div>

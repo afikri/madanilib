@@ -49,8 +49,7 @@ const Dashboard = () => {
                                           <th>Nama File</th>
                                           <th>Sumber</th>
                                           <th>Tahun</th>
-                                          <th>Tipe</th>
-                                          <th>Nama Folder</th>
+                                          <th>Link Akses</th>
                                           <th>Deskripsi Dokumen</th>
                                         </tr>
                                       </thead>
@@ -82,9 +81,9 @@ const Dashboard = () => {
                                                 </div>
                                               </div>
                                             </td>
-                                            <td>
+                                            {/* <td>
                                               <div className="badge badge-opacity-warning">{val.type}</div>
-                                            </td>
+                                            </td> */}
                                             <td>
                                               <h6><a href="#">{val.folder}</a></h6>
                                             </td>

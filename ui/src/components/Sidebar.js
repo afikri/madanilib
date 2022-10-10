@@ -61,12 +61,12 @@ const Sidebar = () => {
         </a>
       </li> */}
 
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-cloud-upload"></i>
             <span className="menu-title">Form Upload Data</span>
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )
