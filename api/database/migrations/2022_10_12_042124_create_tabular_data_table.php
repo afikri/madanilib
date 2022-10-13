@@ -13,19 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('documents', function (Blueprint $table) {
+        Schema::create('tabular_data', function (Blueprint $table) {
             $table->id();
             //define foreign id
             // $table->foreignId('category_id')->constrained('categories')->onUpdate('cascade')->onDelete('cascade');
-
             $table->string('category');
-            $table->string('tags')->nullable();
-            $table->string('file_name');
-            $table->string('file_source');
-            $table->string('year');
-            $table->string('folder');
-            $table->text('doc_description');
-
+            $table->text('tags')->nullable();
+            $table->string('file_name')->nullable();
+            $table->text('doc_description')->nullable();
             $table->timestamps();
         });
     }
@@ -37,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('documents');
+        Schema::dropIfExists('tabular_data');
     }
 };
