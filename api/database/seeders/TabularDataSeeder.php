@@ -185,8 +185,6 @@ class TabularDataSeeder extends Seeder
 
         ];
 
-
-
         $doc_description = [
             "Luas Area Baru Terbakar ABT Kalteng, Sumsel, Kalbar",
             "Data Tabular Sawit Greenpeace dan Auriga",
