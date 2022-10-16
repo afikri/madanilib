@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\Api;
 use App\Models\Publication;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
 
 class PublicationController extends Controller
 {
@@ -14,7 +15,13 @@ class PublicationController extends Controller
      */
     public function index()
     {
-        //
+        $pubs = Publication::all();
+        return response()->json($pubs,200);
+    }
+
+    public function searchByCat(){
+        $pubCat = Publication::where('category','=','Sawit')->get();
+        return response()->json($pubCat, 200);
     }
 
     /**
