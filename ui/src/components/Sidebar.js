@@ -1,57 +1,68 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
+
   return (
     <nav className="sidebar sidebar-offcanvas" id="sidebar">
       <ul className="nav">
         <li className="nav-item nav-category">Data</li>
+
         <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
+          <NavLink to='' className="nav-link" data-bs-toggle="collapse" aria-expanded="false"
             aria-controls="form-elements">
             <i className="menu-icon mdi mdi-card-text-outline"></i>
             <span className="menu-title">Data Tabular</span>
-          </a>
+          </NavLink>
 
         </li>
         <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+          <NavLink to='/spatial' className="nav-link" data-bs-toggle="collapse"  
+          aria-expanded="false" aria-controls="charts">
             <i className="menu-icon mdi mdi-chart-line"></i>
             <span className="menu-title">Analisis Spasial</span>
-          </a>
+          </NavLink>
 
         </li>
+
         <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+          <NavLink to="/publication" className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="tables">
             <i className="menu-icon mdi mdi-update"></i>
             <span className="menu-title">Publikasi Madani</span>
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-            <i className="menu-icon mdi mdi-presentation"></i>
-            <span className="menu-title">Presentasi</span>
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+          <NavLink to='/press' className="nav-link" data-bs-toggle="collapse"  
+          aria-expanded="false" aria-controls="icons">
+            <i className="menu-icon mdi mdi-presentation"></i>
+            <span className="menu-title">Siaran Pers</span>
+          </NavLink>
+        </li>
+
+        <li className="nav-item">
+          <NavLink to='/literature' className="nav-link" data-bs-toggle="collapse" 
+           aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-library"></i>
             <span className="menu-title">Literature Eksternal</span>
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+          <NavLink to='/internal' className="nav-link" data-bs-toggle="collapse" 
+           aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-import"></i>
             <span className="menu-title">Kegiatan Internal</span>
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+          <NavLink to='/external' className="nav-link" data-bs-toggle="collapse"  
+          aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-export"></i>
             <span className="menu-title">Kegiatan Eksternal</span>
-          </a>
+          </NavLink>
         </li>
 
         {/* <li className="nav-item">

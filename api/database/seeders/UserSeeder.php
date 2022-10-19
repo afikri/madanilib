@@ -25,7 +25,14 @@ class UserSeeder extends Seeder
                 "created_at" => now(),
                 "updated_at" => now()
             ],
-
+            [
+                "name" => "Kristian Muser",
+                "email" => "kmuser1@madaniberkelanjutan.id",
+                "password" => bcrypt("kMus3r1"),
+                "remember_token" =>Str::random(10), 
+                "created_at" => now(),
+                "updated_at" => now()
+            ],
         ]);
     }
 }

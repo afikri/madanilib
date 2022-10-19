@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Dashboard.css'
 import data from '../../data.json'
 
-import { Footer, Nav, Sidebar, Utilities } from '../../components/'
+import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
 
 const Dashboard = () => {
   const [searchTerm, setSearchTerm] = useState("")
@@ -53,13 +53,7 @@ const Dashboard = () => {
                                           <th>Deskripsi Dokumen</th>
                                         </tr>
                                       </thead>
-                                      {data.filter((val)=>{
-                                        if (searchTerm === "") {
-                                          return val
-                                        } else if (val.type.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())) {
-                                          return val
-                                        }
-                                      }).map((val, key) => {
+                                      {data.map((val, key) => {
                                         return <tbody>
                                           <tr>
                                             <td>{val.id}</td>
@@ -105,6 +99,7 @@ const Dashboard = () => {
                   </div>
                 </div>
               </div>
+              <Pagination/>
             </div>
           </div>
           <Footer />
