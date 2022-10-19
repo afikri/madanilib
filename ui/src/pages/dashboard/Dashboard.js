@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import './Dashboard.css'
 import data from '../../data.json'
 
 import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
+let PageSize = 10;
 
 const Dashboard = () => {
   const [searchTerm, setSearchTerm] = useState("")
@@ -11,6 +12,12 @@ const Dashboard = () => {
     setSearchTerm(e.target.value)
   }
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const currentTableData = useMemo(() => {
+    const firstPageIndex = (currentPage - 1) * PageSize;
+    const lastPageIndex = firstPageIndex + PageSize;
+    return data.slice(firstPageIndex, lastPageIndex);
+  }, [currentPage]);
   return (
     <div>
       <Nav />
@@ -53,7 +60,7 @@ const Dashboard = () => {
                                           <th>Deskripsi Dokumen</th>
                                         </tr>
                                       </thead>
-                                      {data.map((val, key) => {
+                                      {currentTableData.map((val, key) => {
                                         return <tbody>
                                           <tr>
                                             <td>{val.id}</td>
@@ -99,7 +106,12 @@ const Dashboard = () => {
                   </div>
                 </div>
               </div>
-              <Pagination/>
+              <Pagination
+                className="pagination-bar"
+                currentPage={currentPage}
+                totalCount={data.length}
+                pageSize={PageSize}
+                onPageChange={page => setCurrentPage(page)} />
             </div>
           </div>
           <Footer />
