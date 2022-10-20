@@ -15,7 +15,8 @@ class TabularDataController extends Controller
      */
     public function index()
     {
-        //
+        $data = TabularData::all();
+        return response()->json($data,200);
     }
 
     /**

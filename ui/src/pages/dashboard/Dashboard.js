@@ -1,5 +1,4 @@
 import React, { useState, useMemo } from 'react'
-// import './Dashboard.css'
 import data from '../../data.json'
 
 import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
@@ -53,11 +52,10 @@ const Dashboard = () => {
                                       <thead>
                                         <tr>
                                           <th>No</th>
-                                          <th>Nama File</th>
-                                          <th>Sumber</th>
-                                          <th>Tahun</th>
-                                          <th>Link Akses</th>
-                                          <th>Deskripsi Dokumen</th>
+                                          <th>Kategori Data Tabular</th>
+                                          <th>Tags</th>
+                                          <th  style={{tableLayout:"fixed", width:"80%"}}>Nama File</th>
+                                          <th>Isi Dokumen</th>
                                         </tr>
                                       </thead>
                                       {currentTableData.map((val, key) => {
@@ -67,26 +65,20 @@ const Dashboard = () => {
                                             <td>
                                               <div className="d-flex ">
                                                 <div>
-                                                  <h6>{val.file_name}</h6>
+                                                  <h6>{val.category}</h6>
                                                 </div>
                                               </div>
                                             </td>
                                             <td>
-                                              <h6>{val.file_source}</h6>
+                                              <h6>{val.tags}</h6>
                                             </td>
                                             <td>
                                               <div>
                                                 <div
                                                   className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                  <p className="text-success">{val.year}</p>
+                                                  <p className="text-success">{val.file_name}</p>
                                                 </div>
                                               </div>
-                                            </td>
-                                            {/* <td>
-                                              <div className="badge badge-opacity-warning">{val.type}</div>
-                                            </td> */}
-                                            <td>
-                                              <h6><a href="#">{val.folder}</a></h6>
                                             </td>
                                             <td>
                                               {val.doc_description}

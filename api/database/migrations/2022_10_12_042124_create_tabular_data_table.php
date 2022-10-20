@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             //define foreign id
             // $table->foreignId('category_id')->constrained('categories')->onUpdate('cascade')->onDelete('cascade');
-            $table->string('category');
+            $table->string('category')->nullable();
             $table->text('tags')->nullable();
             $table->string('file_name')->nullable();
             $table->text('doc_description')->nullable();

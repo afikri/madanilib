@@ -1,242 +1,713 @@
 [
     {
-        "id": "1",
-        "category": "Sawit",
-        "tags": "RAN-KSB",
-        "file_name": "Analisa Inpres No. 6 Tahun 2019 Kelapa Sawit Berkelanjutan (RAN KSB)",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1Pdr2lVFKICrB6vSAUS-SEHzeRrw4cYqf\/view?usp=sharing",
-        "doc_description": "Ruang lingkup, mandat, program, dan kegiatan dalam RAN KSB: 1) Pembentukan Tim RAN KSB, 2) Penguatan data dasar sawit, 3) Peningkatan kapasitas dan kapabilitas pekebun, 4) Pengelolaan dan pemantauan lingkungan, 5) Pembangunan infrastruktur, 6) Pemanfaatan sawit sebagai energi terbarukan, 7) Penyelesaian status perkebunan lahan sawit dan konflik agraria, 8) Peningkatan kepatuhan hukum, 9) Diplomasi internasional\nCatatan dan rekomendasi untuk RAN KSB 2019-2024",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 1,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Area Baru Terbakar ABT Kalteng, Sumsel, Kalbar_Madani_2020_Excel",
+      "doc_description": "Luas Area Baru Terbakar ABT Kalteng, Sumsel, Kalbar",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "2",
-        "category": "Sawit",
-        "tags": "ISPO",
-        "file_name": "Analisis Permentan ISPO",
-        "file_source": "Madani",
-        "year": "2021",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1AEs9xbPYgCj-snK1cLQTuvJi9vckBKuU\/view?usp=sharing",
-        "doc_description": "Analisis Peraturan Menteri Pertanian No. 38 Tahun 2020 tentang Penyelenggaraan Sertifikasi Perkebunan Berkelanjutan Indonesia\nTata cara permohonan sertifikasi ISPO\nPrinsip dan Kriteria Permentan 38\\\/2020 dibandingkan dengan Permentan 11\\\/2015",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 2,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Analisis Data Konsesi Sawit GP dan Auriga_Madani_2019_Excel",
+      "doc_description": "Data Tabular Sawit Greenpeace dan Auriga ",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "3",
-        "category": "Sawit",
-        "tags": "ISPO",
-        "file_name": "Diplomat Brief ISPO",
-        "file_source": "Madani",
-        "year": "2021",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1FWAbv38tfWWnGBviAQ2528ATXpumazPM\/view?usp=sharing",
-        "doc_description": "What's new in Permentan 38\\\/2020 on Indonesian Sustainable Palm Oil (environmental management, customary rights, transparency)",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 3,
+      "category": "Biofuel",
+      "tags": "",
+      "file_name": "Analisis Omnimbus Law - Annex XX Neraca Biodiesel dan CPO Skenario B30D10 Analysis_Madani_2020_Word",
+      "doc_description": "Annex XX Neraca Biodiesel dan CPO Skenario B30D10 Analysis",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "4",
-        "category": "Gambut",
-        "tags": "Restorasi Gambut, BRGM",
-        "file_name": "Analisis Perpres 120 Tahun 2020 tentang BRGM",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1pQ6qb6jr-huy7273czhLb2HmzGU2R1ky\/view?usp=sharing",
-        "doc_description": "Kondisi Gambut Indonesia Terkini\nTelisik Ekosistem Gambut di Area Izin dan Konsesi\nTelisik Ekosistem Gambut di PIPPIB, PIAPS, dan Wilayah Adat\nTarget Restorasi BRGM dan Komitmen Iklim Indonesia\nBRGM dan Pembelajaran Restorasi Gambut 2016-2020",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 4,
+      "category": "Biofuel",
+      "tags": "",
+      "file_name": "Analisis Omnimbus Law - Biofuel Worksheet_Madani_2020_Excel",
+      "doc_description": "Biofuel worksheet",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "5",
-        "category": "Karhutla",
-        "tags": "Sawit, Gambut, PIPPIB, PIAPS",
-        "file_name": "Hotspots Invasion Review of the 2019 Forest and Land Fires",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1KIwwuR9iTIRXrZW9KL97HWj8-bWpy-qn\/view?usp=sharing",
-        "doc_description": "Review of 2019 fires: 1) land cover, 2) peat ecosystem, 3) newly-burned areas, 4) most affected provinces, 5) fires in protected areas, PIPPIB, PIAPS, 6) fires in palm oil and other permits, 7) Fire-Prone Areas",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 5,
+      "category": "Biofuel",
+      "tags": "",
+      "file_name": "Analisis Omnimbus Law - Ekspor Impor CPO dan PKO Nasional 2000 - 2018 (BPS)_Madani_2020_Excel",
+      "doc_description": "Ekspor Impor CPO dan PKO Nasional 2000 - 2018 (BPS)",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "6",
-        "category": "Hutan Alam, Gambut, Masyarakat Adat",
-        "tags": "RPJMN",
-        "file_name": "Hutan, Gambut, Masyarakat Adat dan Perubahan Iklim dalam Perencanaan Pembangunan Indonesia 2020-2024",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/10Fh3zoiGpUW-Ar-CmSV8LmBhgTca67ae\/view?usp=sharing",
-        "doc_description": "Sorotan RPJMN 2020-2024 terkait: 1) Hutan alam dan kawasan lindung, 2) hutan di lahan gambut, 3) restorasi gambut, 4) rehabilitasi hutan dan lahan, 5) karhutla, 6) tingkat dan intensitas emisi, 7) major projects dan proyek strategis nasional, 8) pembangunan di Papua, 9) perhutanan sosial dan reforma agraria, 10) masyarakat adat ",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 6,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Analisis Omnimbus Law - Luas dan Produktivitas Lahan 1970 - 2018_Madani_2020_Excel",
+      "doc_description": "Luas dan produktivitas lahan 1970 - 2018",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "7",
-        "category": "Hutan Alam",
-        "tags": "IKN, UUCK",
-        "file_name": "Indonesian Political Situation January 2020",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1AcupDDGnMxbvKmMzStj6qKXJHJ6_JKCx\/view?usp=sharing",
-        "doc_description": "MA Perintahkan Jokowi Cabut Aturan Hutan Lindung Bisa Jadi Perkebunan.Bentuk Pemerintahan Untuk Ibu Kota Baru\nOmnibus Law dan Perlindungan Lingkungan Hidup\nPenangkapan Editor Mongabay.com.",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 7,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Analisis Omnimbus Law - Data Tabular Mas Fadli_Madani_2020_Excel",
+      "doc_description": "Luas administrasi dan luas hutan setiap provinsi",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "8",
-        "category": "Sawit",
-        "tags": "Kemiskinan, Kalbar, Desa Peduli Api",
-        "file_name": "Madani Insight Vol 3",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1kLWOLO_NsXgNz1PG2xwUXvX-ujqDlM6b\/view?usp=sharing",
-        "doc_description": "Sawit dan Kemiskinan Masyarakat Kalimantan Barat\nLuas dan Produktivitas Sawit Kalimantan Barat\nRekomendasi Desa Peduli Api Bagi Kalimantan Barat",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 8,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Analisis Pilkada_Madani_2020_Excel",
+      "doc_description": "Hutan Alam di Provinsi dan Kabupaten Pilkada 2020",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "9",
-        "category": "Hutan Alam",
-        "tags": "IKN, UUCK",
-        "file_name": "Indonesian Political Situation January 2020",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1AcupDDGnMxbvKmMzStj6qKXJHJ6_JKCx\/view?usp=sharing",
-        "doc_description": "MA Perintahkan Jokowi Cabut Aturan Hutan Lindung Bisa Jadi Perkebunan.Bentuk Pemerintahan Untuk Ibu Kota Baru\nOmnibus Law dan Perlindungan Lingkungan Hidup\nPenangkapan Editor Mongabay.com.",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 9,
+      "category": "Biofuel",
+      "tags": "",
+      "file_name": "Biofuel Worksheet_Madani_2020_Excel",
+      "doc_description": "• Political-economic background\n• Impacts on forests and land\n• Index Mundi\n• Collective auction\n• Current work on biofuel",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "10",
-        "category": "Sawit",
-        "tags": "Kemiskinan, Kalbar, Desa Peduli Api",
-        "file_name": "Madani Insight Vol 3",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1kLWOLO_NsXgNz1PG2xwUXvX-ujqDlM6b\/view?usp=sharing",
-        "doc_description": "Sawit dan Kemiskinan Masyarakat Kalimantan Barat\nLuas dan Produktivitas Sawit Kalimantan Barat\nRekomendasi Desa Peduli Api Bagi Kalimantan Barat",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 10,
+      "category": "Konsesi",
+      "tags": "",
+      "file_name": "Concession Risk Ranking_Greenpeace_2016",
+      "doc_description": "Company Name, Problematic Area, Forest Cover, Ranking",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "11",
-        "category": "Sawit",
-        "tags": "RAN-KSB",
-        "file_name": "Analisa Inpres No. 6 Tahun 2019 Kelapa Sawit Berkelanjutan (RAN KSB)",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1Pdr2lVFKICrB6vSAUS-SEHzeRrw4cYqf\/view?usp=sharing",
-        "doc_description": "Ruang lingkup, mandat, program, dan kegiatan dalam RAN KSB: 1) Pembentukan Tim RAN KSB, 2) Penguatan data dasar sawit, 3) Peningkatan kapasitas dan kapabilitas pekebun, 4) Pengelolaan dan pemantauan lingkungan, 5) Pembangunan infrastruktur, 6) Pemanfaatan sawit sebagai energi terbarukan, 7) Penyelesaian status perkebunan lahan sawit dan konflik agraria, 8) Peningkatan kepatuhan hukum, 9) Diplomasi internasional\nCatatan dan rekomendasi untuk RAN KSB 2019-2024",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 11,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Area Terbakar 2019 dalam Izin Sawit di Gambut + Kawasan Hutan_Madani_2020_Excel",
+      "doc_description": "Area Terbakar 2019 dalam Izin Sawit di Gambut + Kawasan Hutan",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "12",
-        "category": "Sawit",
-        "tags": "ISPO",
-        "file_name": "Analisis Permentan ISPO",
-        "file_source": "Madani",
-        "year": "2021",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1AEs9xbPYgCj-snK1cLQTuvJi9vckBKuU\/view?usp=sharing",
-        "doc_description": "Analisis Peraturan Menteri Pertanian No. 38 Tahun 2020 tentang Penyelenggaraan Sertifikasi Perkebunan Berkelanjutan Indonesia\nTata cara permohonan sertifikasi ISPO\nPrinsip dan Kriteria Permentan 38\\\/2020 dibandingkan dengan Permentan 11\\\/2015",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 12,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Area Terbakar 2019 dalam Izin Sawit di Gambut + Tutupan Lahan_Madani_2020_Excel",
+      "doc_description": "Area Terbakar 2019 dalam Izin Sawit di Gambut + Tutupan Lahan",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "13",
-        "category": "Sawit",
-        "tags": "ISPO",
-        "file_name": "Diplomat Brief ISPO",
-        "file_source": "Madani",
-        "year": "2021",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1FWAbv38tfWWnGBviAQ2528ATXpumazPM\/view?usp=sharing",
-        "doc_description": "What's new in Permentan 38\\\/2020 on Indonesian Sustainable Palm Oil (environmental management, customary rights, transparency)",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 13,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Daftar Kabupaten dengan Tutupan Hutan Terluas dalam Konsesi_Greenpeace_2019_Excel.",
+      "doc_description": "Luasan Izin Sawit dan Pohon Sawit di Area Gambut di Tiap Kabupaten Kota",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "4",
-        "category": "Gambut",
-        "tags": "Restorasi Gambut, BRGM",
-        "file_name": "Analisis Perpres 120 Tahun 2020 tentang BRGM",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1pQ6qb6jr-huy7273czhLb2HmzGU2R1ky\/view?usp=sharing",
-        "doc_description": "Kondisi Gambut Indonesia Terkini\nTelisik Ekosistem Gambut di Area Izin dan Konsesi\nTelisik Ekosistem Gambut di PIPPIB, PIAPS, dan Wilayah Adat\nTarget Restorasi BRGM dan Komitmen Iklim Indonesia\nBRGM dan Pembelajaran Restorasi Gambut 2016-2020",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 14,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Daftar Konsesi Sawit_Greenpeace_2019_Excel",
+      "doc_description": "Nama Perusahaan, Luas Konsesi, Luas Hutan Alam, Luas Gambut",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "5",
-        "category": "Karhutla",
-        "tags": "Sawit, Gambut, PIPPIB, PIAPS",
-        "file_name": "Hotspots Invasion Review of the 2019 Forest and Land Fires",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1KIwwuR9iTIRXrZW9KL97HWj8-bWpy-qn\/view?usp=sharing",
-        "doc_description": "Review of 2019 fires: 1) land cover, 2) peat ecosystem, 3) newly-burned areas, 4) most affected provinces, 5) fires in protected areas, PIPPIB, PIAPS, 6) fires in palm oil and other permits, 7) Fire-Prone Areas",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 15,
+      "category": "Perhutanan Sosial",
+      "tags": "",
+      "file_name": "Daftar Lokasi ProKlim dalam SRN 2018 - Wilayah Sumatera_Madani_2018_Excel",
+      "doc_description": "Nama Kegiatan, Kab\\/Kota, Provinsi, Status, No Akun",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "6",
-        "category": "Hutan Alam, Gambut, Masyarakat Adat",
-        "tags": "RPJMN",
-        "file_name": "Hutan, Gambut, Masyarakat Adat dan Perubahan Iklim dalam Perencanaan Pembangunan Indonesia 2020-2024",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/10Fh3zoiGpUW-Ar-CmSV8LmBhgTca67ae\/view?usp=sharing",
-        "doc_description": "Sorotan RPJMN 2020-2024 terkait: 1) Hutan alam dan kawasan lindung, 2) hutan di lahan gambut, 3) restorasi gambut, 4) rehabilitasi hutan dan lahan, 5) karhutla, 6) tingkat dan intensitas emisi, 7) major projects dan proyek strategis nasional, 8) pembangunan di Papua, 9) perhutanan sosial dan reforma agraria, 10) masyarakat adat ",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 16,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Tutupan Sawit (Kota-Kab)_WRI_2020_Excel",
+      "doc_description": "Luas tutupan sawit Provinsi - Kota\\/ Kabupaten",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "7",
-        "category": "Hutan Alam",
-        "tags": "IKN, UUCK",
-        "file_name": "Indonesian Political Situation January 2020",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1AcupDDGnMxbvKmMzStj6qKXJHJ6_JKCx\/view?usp=sharing",
-        "doc_description": "MA Perintahkan Jokowi Cabut Aturan Hutan Lindung Bisa Jadi Perkebunan.Bentuk Pemerintahan Untuk Ibu Kota Baru\nOmnibus Law dan Perlindungan Lingkungan Hidup\nPenangkapan Editor Mongabay.com.",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 17,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Tutupan Sawit di Gambut (Kota-Kab)_WRI_2020_Excel",
+      "doc_description": "Luas tutupan sawit di Gambut Provinsi - Kota\\/ Kabupaten",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "8",
-        "category": "Sawit",
-        "tags": "Kemiskinan, Kalbar, Desa Peduli Api",
-        "file_name": "Madani Insight Vol 3",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1kLWOLO_NsXgNz1PG2xwUXvX-ujqDlM6b\/view?usp=sharing",
-        "doc_description": "Sawit dan Kemiskinan Masyarakat Kalimantan Barat\nLuas dan Produktivitas Sawit Kalimantan Barat\nRekomendasi Desa Peduli Api Bagi Kalimantan Barat",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 18,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Luasan Hutan Alam di APL tiap Kabupaten Kota_Madani_2020_Excel",
+      "doc_description": "Luasan Hutan Alam di APL tiap Kabupaten Kota",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "9",
-        "category": "Hutan Alam",
-        "tags": "IKN, UUCK",
-        "file_name": "Indonesian Political Situation January 2020",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1AcupDDGnMxbvKmMzStj6qKXJHJ6_JKCx\/view?usp=sharing",
-        "doc_description": "MA Perintahkan Jokowi Cabut Aturan Hutan Lindung Bisa Jadi Perkebunan.Bentuk Pemerintahan Untuk Ibu Kota Baru\nOmnibus Law dan Perlindungan Lingkungan Hidup\nPenangkapan Editor Mongabay.com.",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 19,
+      "category": "Gambut",
+      "tags": "",
+      "file_name": "Luasan Gambut di Tiap Kabupaten Kota_Madani_2020_Excel",
+      "doc_description": "Luasan Gambut di Tiap Kabupaten Kota",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
     },
     {
-        "id": "10",
-        "category": "Sawit",
-        "tags": "Kemiskinan, Kalbar, Desa Peduli Api",
-        "file_name": "Madani Insight Vol 3",
-        "file_source": "Madani",
-        "year": "2020",
-        "folder": "https:\/\/drive.google.com\/file\/d\/1kLWOLO_NsXgNz1PG2xwUXvX-ujqDlM6b\/view?usp=sharing",
-        "doc_description": "Sawit dan Kemiskinan Masyarakat Kalimantan Barat\nLuas dan Produktivitas Sawit Kalimantan Barat\nRekomendasi Desa Peduli Api Bagi Kalimantan Barat",
-        "created_at": "2022-10-13 18:28:35",
-        "updated_at": "2022-10-13 18:28:35"
+      "id": 20,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Luasan Area Terbakar di Tiap Kabupaten Kota _Madani_2020_Excel",
+      "doc_description": "Luasan Area Terbakar di Tiap Kabupaten Kota",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 21,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Luasan Izin Sawit dan Pohon Sawit di Tiap Kabupaten Kota_Madani_2020_Excel",
+      "doc_description": "Luasan Izin Sawit dan Pohon Sawit di Tiap Kabupaten Kota",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 22,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "HA dalam Konsesi Pilkada_Madani_2020_Excel",
+      "doc_description": "Hutan Alam di Provinsi dan Kabupaten Pilkada 2020",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 23,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Luasan Hutan Alam berdasarkan Tutupan Lahan per Kabupaten 2018_Madani_2020_Excel",
+      "doc_description": "Luasan Hutan Alam berdasarkan Tutupan Lahan per Kabupaten 2018",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 24,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "HA 19 R05_Madani_2020_Excel",
+      "doc_description": "Hutan Alam tahun 2019",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 25,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Luas Hutan Alam 2019_Madani_2020_Excel",
+      "doc_description": "Luas hutan alam 2019 (7sheet)",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 26,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Hutan Alam 2019_Madani_2020_Excel",
+      "doc_description": "Luas hutan alam 2019 (1sheet)",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 27,
+      "category": "Hutan Alam, Sawit",
+      "tags": "",
+      "file_name": "Hutan Alam di Izin Sawit_Madani_2020_Excel",
+      "doc_description": "• Data izin sawit CSO\n• Data izin sawit RSPO\n• Data pelepasan kawasan hutan",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 28,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Hutan yang Terbakar_Madani_2020_Excel",
+      "doc_description": "Luasan hutan yang terbakar",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 29,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Izin Sawit dan Tutupan Sawit_Madani_2020_Excel",
+      "doc_description": "Izin Sawit dan Tutupan Sawit",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 30,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "NTPR X Luas Smallholder 10 Provinsi Smallholder Terluas_Madani_2020_Excel",
+      "doc_description": "NTPR X Luas Smallholder 10 Provinsi Smallholder Terluas",
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 31,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Komen Defor Indonesia 2019-2020_MADANI_2021_EXCEL",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 32,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Laju Luas Lahan Sawit per Sektor_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 33,
+      "category": "Pilpres",
+      "tags": "",
+      "file_name": "LHKPN - Penghitungan LHKPN Capres 2019_Madani_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 34,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Resume Statistik Covid Karhutla_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 35,
+      "category": "Gambut",
+      "tags": "",
+      "file_name": "Statistik AT19 IS TL FEG Prov_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 36,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "LTS Deforestation Scenario_MADANI_2021_EXCEL",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 37,
+      "category": "Perhutanan Sosial",
+      "tags": "",
+      "file_name": "Capaian Perhutanan Sosial sd 1 April 2019_Dirjen PSKL_2019_PDF",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 38,
+      "category": "Perhutanan Sosial",
+      "tags": "",
+      "file_name": "Capaian Perhutanan Sosial sd 02.05.20_2020_JPG",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 39,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Data Deforestasi 23 April 2018_KLHK_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 40,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Data Deforestasi 26 April 2018_KLHK_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 41,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Data Jejak Terbakar_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 42,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Data Kehutanan Provinsi Papua Barat_Madani_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 43,
+      "category": "Bencana",
+      "tags": "",
+      "file_name": "Data Kerugian Bencana - Intensitas Bencana_BNPB_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 44,
+      "category": "Bencana",
+      "tags": "",
+      "file_name": "Data Kerugian Bencana - Ringkasan APBD 2017_Eko Nur Subagyo_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 45,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Data Statistik Izin Sawit dan Tertanam Sawit_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 46,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Deforestasi Bruto_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 47,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Deforestasi di Wilayah IzinKonsesi Kumulatif 2003 - 2018_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 48,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Deforestasi_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 49,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Fakta Hutan Papua_Madani_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 50,
+      "category": "Hutan alam",
+      "tags": "",
+      "file_name": "HA di HP dan HPT_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 51,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Harga TBS 2013 - 2018 Dirjenbun_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 52,
+      "category": "Hutan Alam, Gambut",
+      "tags": "",
+      "file_name": "Hutan Alam dan Gambut di Izin Sawit di PIPPIB_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 53,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Konsesi Sawit di Gambut_Madani_2019_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 54,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Laju Luas Lahan Sawit per Sektor_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 55,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Luas Lahan Sawit Tidak Menghasilkan Smallholder_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 56,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Masterdata Sawit_Madani_2019_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 57,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Rekap Deforestasi 2013-2014_Madani_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 58,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Rekapitulasi Luas Kebakaran Hutan dan Lahan per Provinsi di Indonesia 2013 - 2018_Dirjen PKHL_2018_PDF",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 59,
+      "category": "Pilkada",
+      "tags": "",
+      "file_name": "Resume Data Pilkada_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 60,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Resume Matriks Perbandingan Deforestasi Madani GFW FWI_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 61,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Resume Statistik Covid Karhutla_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 62,
+      "category": "Konsesi",
+      "tags": "",
+      "file_name": "Resume Tumpang Tindih_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 63,
+      "category": "Masyarakat Adat",
+      "tags": "",
+      "file_name": "Sikap Anggota DPR Terhadap RUU Masyarakat Adat_Madani_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 64,
+      "category": "Gambut",
+      "tags": "",
+      "file_name": "Statistik AT19 IS TL FEG Prov_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 65,
+      "category": "Konsesi",
+      "tags": "",
+      "file_name": "Statistik Jumlah HPH 2001-2016 BPS_BPS_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 66,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Statistik Sawit Nasional 2010 - 2019__Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 67,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Tabel Analisis Masalah Workshop Moratorium Sawit CLUA_Madani_2019_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 68,
+      "category": "Deforestasi",
+      "tags": "",
+      "file_name": "Tabel Deforestasi_Madani_2018_Word",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:25.000000Z",
+      "updated_at": "2022-10-20T06:53:25.000000Z"
+    },
+    {
+      "id": 69,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Tabel FREL Subnasional Interprestasi_Madani_2019_Word",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 70,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Tabel FREL Subnasional Pak Ridwan_Madani_2019_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 71,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Tabel Hutan Alam Berisiko Terancam dan Sangat Terancam 2020_Madani_2020_Word",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 72,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Tabular Izin dan Area Tertanam Sawit_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 73,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Tabulasi Hutan Alam Primer Sekunder Kabkot dan Fungsi Kawasan Hutan_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 74,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "TABULASI HUTAN ALAM PRIMER SEKUNDER KABKOT dan FUNGSI KAWASAN HUTAN_TUF_2021_EXCEL",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 75,
+      "category": "Karhutla",
+      "tags": "",
+      "file_name": "Total Areal APL _ Sawit Provinsi_Auriga_2019_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 76,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Track Visi Misi Prabowo_Madani_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 77,
+      "category": "Hutan Alam",
+      "tags": "",
+      "file_name": "Tracking Visi dan Misi Capres terkait Lingkungan_Madani_2018_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 78,
+      "category": "Sawit",
+      "tags": "",
+      "file_name": "Tutupan Sawit dalam Kawasan Hutan_KPK_2019_png",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
+    },
+    {
+      "id": 79,
+      "category": "Konsesi",
+      "tags": "",
+      "file_name": "List of PO Companies in PIPPIB 2020_Madani_2020_Excel",
+      "doc_description": null,
+      "created_at": "2022-10-20T06:53:26.000000Z",
+      "updated_at": "2022-10-20T06:53:26.000000Z"
     }
-]
+  ]

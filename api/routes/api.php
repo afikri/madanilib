@@ -5,9 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\RegisterController;
 use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\Api\LogoutController;
-use App\Http\Controllers\Api\DocumentController;
 use App\Http\Controllers\Api\CategoryController;
 use App\Http\Controllers\Api\PublicationController;
+use App\Http\Controllers\Api\TabularDataController;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
@@ -31,7 +31,7 @@ Route::post('/login', LoginController::class);
  */
 Route::post('/logout', LogoutController::class);
 
-Route::resource('documents', DocumentController::class);
+Route::resource('data', TabularDataController::class);
 Route::resource('publications', PublicationController::class);
 Route::resource('categories', CategoryController::class);
 
