@@ -16,13 +16,13 @@ return new class extends Migration
         Schema::create('publications', function (Blueprint $table) {
             $table->id();
 
-            $table->string('category');
+            $table->string('category')->nullable();
             $table->string('tags')->nullable();
-            $table->string('file_name');
+            $table->text('file_name')->nullable();
             $table->string('file_source');
             $table->string('year');
-            $table->string('folder');
-            $table->text('doc_description');
+            $table->string('folder')->nullable();
+            $table->text('doc_description')->nullable();
 
             $table->timestamps();
         });

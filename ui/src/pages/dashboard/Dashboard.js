@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import './Dashboard.css'
+// import './Dashboard.css'
 import data from '../../data.json'
 
 import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
