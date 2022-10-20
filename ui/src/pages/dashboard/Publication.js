@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import data from '../../data.json'
+import data from '../../publications.json'
 
 import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
 let PageSize = 10;
@@ -85,7 +85,7 @@ const Publication = () => {
                                               <div className="badge badge-opacity-warning">{val.type}</div>
                                             </td> */}
                                             <td>
-                                              <h6><a href="#">{val.folder}</a></h6>
+                                              <h6><a href={val.folder}>Link</a></h6>
                                             </td>
                                             <td>
                                               {val.doc_description}
