@@ -24,5 +24,6 @@ class DatabaseSeeder extends Seeder
         $this->call(UserSeeder::class);
         $this->call(TabularDataSeeder::class);
         $this->call(PublicationSeeder::class);
+        $this->call(SpatialSeeder::class);
     }
 }
