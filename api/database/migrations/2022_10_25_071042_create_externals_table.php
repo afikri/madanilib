@@ -13,19 +13,17 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('documents', function (Blueprint $table) {
+        Schema::create('externals', function (Blueprint $table) {
             $table->id();
-            //define foreign id
-            // $table->foreignId('category_id')->constrained('categories')->onUpdate('cascade')->onDelete('cascade');
-
             $table->string('category')->nullable();
             $table->string('tags')->nullable();
-            $table->string('file_name')->nullable();
-            $table->string('file_source')->nullable();
-            $table->string('year')->nullable();
-            $table->string('folder')->nullable();
-            $table->text('doc_description')->nullable();
-
+            $table->string('date')->nullable();
+            $table->string('activity')->nullable();
+            $table->string('organizer')->nullable();
+            $table->text('key_res')->nullable();
+            $table->string('links')->nullable();
+            $table->string('participant')->nullable();
+            $table->string('follow_up')->nullable();            
             $table->timestamps();
         });
     }
@@ -37,6 +35,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('documents');
+        Schema::dropIfExists('externals');
     }
 };
