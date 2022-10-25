@@ -24,9 +24,9 @@ class DatabaseSeeder extends Seeder
         // $this->call(DocumentSeeder::class);
         // $this->call(TrainingSeeder::class);
         // $this->call(PressSeeder::class);
-        $this->call(LiteratureSeeder::class);
+        // $this->call(LiteratureSeeder::class);
         // $this->call(ExternalSeeder::class);
-        // $this->call(InternalSeeder::class);
+        $this->call(InternalSeeder::class);
         // $this->call(UserSeeder::class);
         // $this->call(TabularDataSeeder::class);
         // $this->call(PublicationSeeder::class);

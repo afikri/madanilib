@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('organizer')->nullable();
             $table->string('target')->nullable();            
             $table->string('participant')->nullable();
-            $table->string('objective')->nullable();
+            $table->text('objective')->nullable();
             $table->string('links')->nullable();
             $table->string('types')->nullable();
             $table->text('key_res')->nullable();
