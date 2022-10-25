@@ -23,8 +23,8 @@ class DatabaseSeeder extends Seeder
         // $this->call(CategorySeeder::class);
         // $this->call(DocumentSeeder::class);
         // $this->call(TrainingSeeder::class);
-        $this->call(PressSeeder::class);
-        // $this->call(LiteratureSeeder::class);
+        // $this->call(PressSeeder::class);
+        $this->call(LiteratureSeeder::class);
         // $this->call(ExternalSeeder::class);
         // $this->call(InternalSeeder::class);
         // $this->call(UserSeeder::class);
