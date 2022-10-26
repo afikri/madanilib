@@ -65,19 +65,19 @@ const Sidebar = () => {
           </NavLink>
         </li>
 
-        {/* <li className="nav-item">
+        <li className="nav-item">
         <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-          <i className="menu-icon mdi mdi-account"></i>
-          <span className="menu-title">Admin Program</span>
+          <i className="menu-icon mdi mdi-human-male-board-poll"></i>
+          <span className="menu-title">Training Madani</span>
         </a>
-      </li> */}
+      </li>
 
-        {/* <li className="nav-item">
+        <li className="nav-item">
           <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-            <i className="menu-icon mdi mdi-cloud-upload"></i>
-            <span className="menu-title">Form Upload Data</span>
+            <i className="menu-icon mdi mdi-text-box-multiple-outline"></i>
+            <span className="menu-title">Dokumen Internal</span>
           </a>
-        </li> */}
+        </li>
       </ul>
     </nav>
   )

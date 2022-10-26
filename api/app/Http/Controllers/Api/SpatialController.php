@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
-use App\Models\External;
+use App\Models\Spatial;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class ExternalController extends Controller
+class SpatialController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,8 @@ class ExternalController extends Controller
      */
     public function index()
     {
-        //
+        $spatials = Spatial::all();
+        return response()->json($spatials, 200);
     }
 
     /**
@@ -41,10 +43,10 @@ class ExternalController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\External  $external
+     * @param  \App\Modes\Spatial  $spatial
      * @return \Illuminate\Http\Response
      */
-    public function show(External $external)
+    public function show(Spatial $spatial)
     {
         //
     }
@@ -52,10 +54,10 @@ class ExternalController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\External  $external
+     * @param  \App\Modes\Spatial  $spatial
      * @return \Illuminate\Http\Response
      */
-    public function edit(External $external)
+    public function edit(Spatial $spatial)
     {
         //
     }
@@ -64,10 +66,10 @@ class ExternalController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\External  $external
+     * @param  \App\Modes\Spatial  $spatial
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, External $external)
+    public function update(Request $request, Spatial $spatial)
     {
         //
     }
@@ -75,10 +77,10 @@ class ExternalController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\External  $external
+     * @param  \App\Modes\Spatial  $spatial
      * @return \Illuminate\Http\Response
      */
-    public function destroy(External $external)
+    public function destroy(Spatial $spatial)
     {
         //
     }

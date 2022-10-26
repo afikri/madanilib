@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Models\Literature;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class LiteratureController extends Controller
 {
@@ -14,7 +15,8 @@ class LiteratureController extends Controller
      */
     public function index()
     {
-        //
+        $literatures = Literature::all();
+        return response()->json($literatures,200);
     }
 
     /**

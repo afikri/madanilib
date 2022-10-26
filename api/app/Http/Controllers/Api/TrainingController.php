@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Models\Training;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class TrainingController extends Controller
 {
@@ -14,7 +15,8 @@ class TrainingController extends Controller
      */
     public function index()
     {
-        //
+        $trainings = Training::all();
+        return response()->json($trainings,200);
     }
 
     /**

@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Models\Internal;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class InternalController extends Controller
 {
@@ -14,7 +15,8 @@ class InternalController extends Controller
      */
     public function index()
     {
-        //
+        $internals = Internal::all();
+        return response()->json($internals,200);
     }
 
     /**

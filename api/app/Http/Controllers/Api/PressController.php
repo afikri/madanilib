@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Models\Press;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class PressController extends Controller
 {
@@ -14,7 +15,8 @@ class PressController extends Controller
      */
     public function index()
     {
-        //
+        $presses = Press::all();
+        return response()->json($presses,200);
     }
 
     /**
