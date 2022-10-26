@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import data from '../../data.json'
+import data from '../../static-data/data.json'
 
 import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
 let PageSize = 10;
