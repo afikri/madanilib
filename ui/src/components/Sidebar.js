@@ -17,8 +17,8 @@ const Sidebar = () => {
 
         </li>
         <li className="nav-item">
-          <NavLink to='/spatial' className="nav-link" data-bs-toggle="collapse"  
-          aria-expanded="false" aria-controls="charts">
+          <NavLink to='/spatial' className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="charts">
             <i className="menu-icon mdi mdi-chart-line"></i>
             <span className="menu-title">Analisis Spasial</span>
           </NavLink>
@@ -34,49 +34,51 @@ const Sidebar = () => {
         </li>
 
         <li className="nav-item">
-          <NavLink to='/press' className="nav-link" data-bs-toggle="collapse"  
-          aria-expanded="false" aria-controls="icons">
+          <NavLink to='/press' className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-presentation"></i>
             <span className="menu-title">Siaran Pers</span>
           </NavLink>
         </li>
 
         <li className="nav-item">
-          <NavLink to='/literature' className="nav-link" data-bs-toggle="collapse" 
-           aria-expanded="false" aria-controls="icons">
+          <NavLink to='/literature' className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-library"></i>
             <span className="menu-title">Literature Eksternal</span>
           </NavLink>
         </li>
 
         <li className="nav-item">
-          <NavLink to='/internal' className="nav-link" data-bs-toggle="collapse" 
-           aria-expanded="false" aria-controls="icons">
+          <NavLink to='/internal' className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-import"></i>
             <span className="menu-title">Kegiatan Internal</span>
           </NavLink>
         </li>
 
         <li className="nav-item">
-          <NavLink to='/external' className="nav-link" data-bs-toggle="collapse"  
-          aria-expanded="false" aria-controls="icons">
+          <NavLink to='/external' className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-export"></i>
             <span className="menu-title">Kegiatan Eksternal</span>
           </NavLink>
         </li>
 
         <li className="nav-item">
-        <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-          <i className="menu-icon mdi mdi-human-male-board-poll"></i>
-          <span className="menu-title">Training Madani</span>
-        </a>
-      </li>
+          <NavLink to='/training' className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="icons">
+            <i className="menu-icon mdi mdi-human-male-board-poll"></i>
+            <span className="menu-title">Training Madani</span>
+          </NavLink>
+        </li>
 
         <li className="nav-item">
-          <a className="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+          <NavLink to='/document' className="nav-link" data-bs-toggle="collapse"
+            aria-expanded="false" aria-controls="icons">
             <i className="menu-icon mdi mdi-text-box-multiple-outline"></i>
             <span className="menu-title">Dokumen Internal</span>
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

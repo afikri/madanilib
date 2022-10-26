@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react'
-import data from '../../static-data/publications.json'
+import data from '../../static-data/trainings.json'
 
 import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
 let PageSize = 10;
 
-const Publication = () => {
+const Training = () => {
   const [searchTerm, setSearchTerm] = useState("")
 
   const onSearch = (e) => {
@@ -52,13 +52,11 @@ const Publication = () => {
                                       <thead>
                                         <tr>
                                           <th>No</th>
-                                          <th>Kategori</th>
-                                          <th>Tags</th>
-                                          <th>Nama File</th>
-                                          <th>Sumber File/Penulis</th>
-                                          <th>Tahun</th>
-                                          <th>Link Terkait</th>
-                                          <th>Isi Dokumen</th>
+                                          <th>Staff</th>
+                                          <th>Penyelenggara</th>
+                                          <th>Judul Training</th>
+                                          <th>Periode Training</th>
+                                          <th>Materi Training</th>
                                         </tr>
                                       </thead>
                                       {currentTableData.map((val, key) => {
@@ -68,28 +66,27 @@ const Publication = () => {
                                             <td>
                                               <div className="d-flex ">
                                                 <div>
-                                                  <h6>{val.category}</h6>
+                                                  <h6>{val.staff}</h6>
                                                 </div>
                                               </div>
                                             </td>
                                             <td>
-                                              <h6>{val.tags}</h6>
+                                              <h6>{val.organizer}</h6>
                                             </td>
                                             <td>
-                                              <h6>{val.file_name}</h6>
+                                              <div>
+                                                <div
+                                                  className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
+                                                  <p className="text-success">{val.subject}</p>
+                                                </div>
+                                              </div>
                                             </td>
                                             <td>
-                                              <h6>{val.file_source}</h6>
+                                              {val.period}
                                             </td>
-
+                                            
                                             <td>
-                                              <h6>{val.year}</h6>
-                                            </td>
-                                            <td>
-                                              <h6><a href={val.folder}>Link</a></h6>
-                                            </td>
-                                            <td>
-                                              {val.doc_description}
+                                              <h6><a href={val.links}>Link</a></h6>
                                             </td>
                                           </tr>
                                         </tbody>
@@ -121,4 +118,4 @@ const Publication = () => {
   )
 }
 
-export default Publication
+export default Training

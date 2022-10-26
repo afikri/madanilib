@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/logo.png'
-import user from '../images/fikri.jpg'
+import user from '../images/anggi.jpg'
 
 const Nav = () => {
     return (
@@ -23,7 +23,7 @@ const Nav = () => {
             <div className="navbar-menu-wrapper d-flex align-items-top">
                 <ul className="navbar-nav">
                     <li className="nav-item font-weight-semibold d-none d-lg-block ms-0">
-                        <h5 className="welcome-text">Hi, <span className="text-black fw-bold">Fikri Abdul</span></h5>
+                        <h5 className="welcome-text">Hi, <span className="text-black fw-bold">Anggalia Putri Permatasari</span></h5>
                     </li>
                 </ul>
 
@@ -36,8 +36,8 @@ const Nav = () => {
                         <div className="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                             <div className="dropdown-header text-center">
                                 <img className="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image" />
-                                <p className="mb-1 mt-3 font-weight-semibold">Fikri Abdul</p>
-                                <p className="fw-light text-muted mb-0">fikri@madaniberkelanjutan.com</p>
+                                <p className="mb-1 mt-3 font-weight-semibold">Anggalia Putri Permatasari</p>
+                                <p className="fw-light text-muted mb-0">anggi@madaniberkelanjutan.com</p>
                             </div>
                             <a className="dropdown-item"><i className="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
                         </div>

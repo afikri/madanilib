@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react'
-import data from '../../static-data/publications.json'
+import data from '../../static-data/documents.json'
 
 import { Footer, Nav, Sidebar, Utilities, Pagination } from '../../components/'
 let PageSize = 10;
 
-const Publication = () => {
+const Document = () => {
   const [searchTerm, setSearchTerm] = useState("")
 
   const onSearch = (e) => {
@@ -57,7 +57,7 @@ const Publication = () => {
                                           <th>Nama File</th>
                                           <th>Sumber File/Penulis</th>
                                           <th>Tahun</th>
-                                          <th>Link Terkait</th>
+                                          <th>Link File Terkait</th>
                                           <th>Isi Dokumen</th>
                                         </tr>
                                       </thead>
@@ -76,14 +76,18 @@ const Publication = () => {
                                               <h6>{val.tags}</h6>
                                             </td>
                                             <td>
-                                              <h6>{val.file_name}</h6>
+                                              <div>
+                                                <div
+                                                  className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
+                                                  <p className="text-success">{val.file_name}</p>
+                                                </div>
+                                              </div>
                                             </td>
                                             <td>
-                                              <h6>{val.file_source}</h6>
+                                              {val.file_source}
                                             </td>
-
                                             <td>
-                                              <h6>{val.year}</h6>
+                                              {val.year}
                                             </td>
                                             <td>
                                               <h6><a href={val.folder}>Link</a></h6>
@@ -121,4 +125,4 @@ const Publication = () => {
   )
 }
 
-export default Publication
+export default Document

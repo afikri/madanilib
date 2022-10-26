@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "staff": "DELLY FERDIAN",
+        "organizer": "INDEF TRAINING CENTRE",
+        "subject": "Pelatihan Statistik dan Metodologi Penelitian Kualitatif",
+        "period": "26-Feb-2022",
+        "links": "https://drive.google.com/drive/folders/1LAnBXtdy-T9irIWJm7lS4yAPc4ruefqR",
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    },
+    {
+        "id": 2,
+        "staff": "DELLY FERDIAN",
+        "organizer": "LP3ES",
+        "subject": "Sekolat Riset III Penelitian Survei",
+        "period": "4 - 5 Maret 2022",
+        "links": "https://drive.google.com/drive/folders/1dLldOGcbQVyR02KS1xm9O0-9h-fXCM5R",
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    },
+    {
+        "id": 3,
+        "staff": "IZHAR ALKHALIFARD DAN FELLY FERDIAN",
+        "organizer": "SAFENET",
+        "subject": "Pelatihan Keamanan Digital",
+        "period": "9 - 11 Maret 2022",
+        "links": null,
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    },
+    {
+        "id": 4,
+        "staff": "INTAN LESTARI",
+        "organizer": "ECOEDU.ID",
+        "subject": "Pelatihan Perhitungan Emisi GRK",
+        "period": "21 - 25 Maret 2022",
+        "links": "https://drive.google.com/drive/folders/10jdQeiKWLPfsJKOeuZpUTRBedAYrMCOy",
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    },
+    {
+        "id": 5,
+        "staff": "COMMUNICATION TEAM",
+        "organizer": "IN HOUSE TRAINING - PANDJI LAKSONO",
+        "subject": "Digital Marketing",
+        "period": "9 - 24 Juli 2022",
+        "links": "https://drive.google.com/drive/folders/1gNVuYVe4HaAub1u4cRaIVkcjN-5nZLXC",
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    },
+    {
+        "id": 6,
+        "staff": "HRGA AND FINANCE",
+        "organizer": "IN HOUSE TRAINING - HADI PRAYITNO",
+        "subject": "PPH21, PPH23, PPH Pasal 4 ayat 2, PPH Badan",
+        "period": "7 - 28 Juni 2022",
+        "links": "https://drive.google.com/drive/folders/1gNVuYVe4HaAub1u4cRaIVkcjN-5nZLXC",
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    },
+    {
+        "id": 7,
+        "staff": "PROGRAM STAFF",
+        "organizer": "SMERU INSTITUTE",
+        "subject": "Pelatihan Metodologi Riset dan Riset Kebijakan",
+        "period": "8 - 9 Agustus 2022",
+        "links": "https://drive.google.com/drive/folders/1dr8yUkGgDZ9BXs0WSzE0iG6WdS8Ppk-H",
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    },
+    {
+        "id": 8,
+        "staff": "PROGRAM STAFF",
+        "organizer": "IN HOUSE TRAINING - RUBBY EMIR",
+        "subject": "Campaign Strategy",
+        "period": "15 - 17 Agustus 2022",
+        "links": null,
+        "created_at": "2022-10-26T01:30:10.000000Z",
+        "updated_at": "2022-10-26T01:30:10.000000Z"
+    }
+]

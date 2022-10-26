@@ -52,10 +52,15 @@ const External = () => {
                                       <thead>
                                         <tr>
                                           <th>No</th>
-                                          <th>Kategori Data Tabular</th>
+                                          <th>Kategori</th>
                                           <th>Tags</th>
-                                          <th  style={{tableLayout:"fixed", width:"80%"}}>Nama File</th>
-                                          <th>Isi Dokumen</th>
+                                          <th>Tanggal</th>
+                                          <th>Nama Kegiatan</th>
+                                          <th>Penyelenggara</th>
+                                          <th>Hasil Kunci</th>
+                                          <th>Bahan</th>
+                                          <th>Peserta</th>
+                                          <th>Follow Up</th>
                                         </tr>
                                       </thead>
                                       {currentTableData.map((val, key) => {
@@ -76,12 +81,27 @@ const External = () => {
                                               <div>
                                                 <div
                                                   className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                  <p className="text-success">{val.file_name}</p>
+                                                  <p className="text-success">{val.date}</p>
                                                 </div>
                                               </div>
                                             </td>
                                             <td>
-                                              {val.doc_description}
+                                              {val.activity}
+                                            </td>
+                                            <td>
+                                              {val.organizer}
+                                            </td>
+                                            <td>
+                                              {val.key_res}
+                                            </td>
+                                            <td>
+                                              <h6><a href={val.links}>Link</a></h6>
+                                            </td>
+                                            <td>
+                                              {val.participant}
+                                            </td>
+                                            <td>
+                                              {val.follow_up}
                                             </td>
                                           </tr>
                                         </tbody>

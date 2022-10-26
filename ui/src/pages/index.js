@@ -6,7 +6,10 @@ import Literature from './dashboard/Literature'
 import Publication from './dashboard/Publication'
 import Spatial from './dashboard/Spatial'
 
+import Document from './dashboard/Document'
+import Training from './dashboard/Training'
+
 import Login from './authentication/Login'
 import Register from './authentication/Register'
 
-export { Dashboard, External, Internal, Literature, Login, Register, Press, Publication, Spatial }
+export { Dashboard, Document, External, Internal, Literature, Login, Register, Press, Publication, Spatial, Training }

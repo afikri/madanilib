@@ -52,10 +52,18 @@ const Internal = () => {
                                       <thead>
                                         <tr>
                                           <th>No</th>
-                                          <th>Kategori Data Tabular</th>
+                                          <th>Kategori</th>
                                           <th>Tags</th>
-                                          <th  style={{tableLayout:"fixed", width:"80%"}}>Nama File</th>
-                                          <th>Isi Dokumen</th>
+                                          <th>Tanggal</th>
+                                          <th>Nama Kegiatan</th>
+                                          <th>Penyelanggara</th>
+                                          <th>Audiens</th>
+                                          <th>Peserta</th>
+                                          <th>Tujuan</th>
+
+                                          <th>Link terkait</th>
+                                          <th>Jenis Kegiatan</th>
+                                          <th>Hasil Kunci</th>
                                         </tr>
                                       </thead>
                                       {currentTableData.map((val, key) => {
@@ -69,19 +77,44 @@ const Internal = () => {
                                                 </div>
                                               </div>
                                             </td>
+
                                             <td>
                                               <h6>{val.tags}</h6>
                                             </td>
+
                                             <td>
-                                              <div>
-                                                <div
-                                                  className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                  <p className="text-success">{val.file_name}</p>
-                                                </div>
-                                              </div>
+                                              <h6>{val.date}</h6>
+                                            </td>
+
+                                            <td>
+                                              <h6>{val.activity}</h6>
+                                            </td>
+
+                                            <td>
+                                              <h6>{val.organizer}</h6>
+                                            </td>
+
+                                            <td>
+                                              <h6>{val.target}</h6>
+                                            </td>
+
+                                            <td>
+                                              <h6>{val.participant}</h6>
+                                            </td>
+
+                                            <td>
+                                              <h6>{val.objective}</h6>
                                             </td>
                                             <td>
-                                              {val.doc_description}
+                                              <h6><a href={val.links}>Link</a></h6>
+                                            </td>
+
+                                            <td>
+                                              {val.types}
+                                            </td>
+
+                                            <td>
+                                              {val.key_res}
                                             </td>
                                           </tr>
                                         </tbody>

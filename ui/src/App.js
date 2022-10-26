@@ -1,6 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import { Dashboard, External, Internal, Literature, Login, Press, Publication, Register, Spatial } from './pages'
+import { 
+  Dashboard, 
+  Document, 
+  External, Internal, Literature, Login, Press, Publication, Register, Spatial, Training } from './pages'
 const App = () => {
   return (
     <div>
@@ -15,6 +18,9 @@ const App = () => {
         <Route path='press' element={<Press />} />
         <Route path='publication' element={<Publication />} />
         <Route path='spatial' element={<Spatial />} />
+
+        <Route path='training' element={<Training />} />
+        <Route path='document' element={<Document />} />
       </Routes>
     </div>
   )
